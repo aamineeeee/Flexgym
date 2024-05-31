@@ -1,0 +1,29 @@
+.bg-orange-custom {
+    background-color: #ff4500;
+}
+
+/* Ajoutez ceci dans votre fichier CSS */
+input {
+    background: #fff;
+    /* Arrière-plan blanc */
+    border: 1px solid #ccc;
+    /* Bordure grise */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    /* Ombre légère pour donner un effet en relief */
+    padding: 10px 15px;
+    /* Espacement intérieur pour que le texte ne soit pas trop collé aux bords */
+    margin: 10px 0;
+    /* Marge pour espacer les champs entre eux */
+    width: 100%;
+    /* S'assure que l'input prend toute la largeur disponible */
+    box-sizing: border-box;
+    /* Inclut la padding et la border dans la largeur définie */
+}
+
+/* Si vous utilisez également des labels, vous pourriez vouloir les styliser */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+}
